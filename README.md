@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie and TV Series Information Project
+
+## Overview
+
+This project is a personal learning endeavor to build a web application using React with Next.js. The goal is to fetch and display information about movies, TV series, and their casts from The Movie Database (TMDb) API.
+
+## Features
+
+- **Comprehensive Data:** Explore detailed information on movies and TV series, including plot summaries, release dates, and genre classifications.
+- **Cast Details:** Learn about the actors and actresses involved in each production, including their roles and biographical details.
+- **Data Source:** Information is fetched from [The Movie Database (TMDb) API](https://www.themoviedb.org/).
+
+## Tech Stack
+
+- React
+- Next.js
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Get TMDb API Key:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - Obtain an API key from [TMDb](https://www.themoviedb.org/documentation/api).
+   - Replace `<YOUR_API_KEY>` in the `utils/api.js` file with your actual API key.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Install Dependencies:**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the Development Server:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Open Your Browser:**
+   - Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+   - Start exploring movies, TV series, and cast information!
 
-## Deploy on Vercel
+## Contribution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to contribute, report issues, or suggest improvements. This project is a learning opportunity, and any feedback is highly appreciated.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Attribution
+
+This project uses the [TMDb API](https://www.themoviedb.org/documentation/api) to fetch movie and TV series information.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+Happy coding and learning!
