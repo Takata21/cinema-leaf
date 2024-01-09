@@ -1,14 +1,14 @@
-import Link from 'next/link'
-import { BookmarkIcon, FilmIcon, HomeIcon, SearchIcon, TvIcon } from './icons'
-import { FaFire } from 'react-icons/fa'
-import Image from 'next/image'
+import Link from "next/link"
+import { BookmarkIcon, FilmIcon, HomeIcon, SearchIcon, TvIcon } from "./icons"
+import { FaFire } from "react-icons/fa"
+import Image from "next/image"
 
 export function LeftSidebar() {
   return (
     <div className="fixed left-0 top-0 h-screen w-24 bg-[#F7FAFC]  flex-col items-center py-10 space-y-2 hidden gap-5 xl:px-3 xl:flex">
       <Link href="/" className="flex flex-col justify-center items-center">
         <Image src="/logo.png" alt="logo" width={34} height={34} />
-        <p>Cinema</p>
+        <p className="capitalize font-bold">Cinema</p>
       </Link>
       <Link className="group flex flex-col items-center space-y-1" href="/">
         <HomeIcon className="h-6 w-6 text-gray-500 group-hover:text-gray-900 group-focus:text-gray-900" />
